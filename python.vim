@@ -103,6 +103,8 @@ syn keyword pythonException	except finally raise try
 syn keyword pythonInclude	from import
 syn keyword pythonAsync		async await
 
+
+
 " Decorators (new in Python 2.4)
 " A dot must be allowed because of @MyClass.myfunc decorators.
 syn match   pythonDecorator	"@" display contained
@@ -330,6 +332,7 @@ if !exists("python_no_doctest_highlight")
   hi def link pythonDoctest		Special
   hi def link pythonDoctestValue	Define
 endif
+
 
 let b:current_syntax = "python"
 

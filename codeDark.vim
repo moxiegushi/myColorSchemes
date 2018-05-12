@@ -256,6 +256,11 @@ call <sid>hi('jsThis', s:cdBlue, {}, 'none', {})
 " Ruby:
 call <sid>hi('rubyClassNameTag', s:cdBlueGreen, {}, 'none', {})
 
+"Python:
+call <sid>hi('pythonFunction', s:cdYellow, {}, 'none', {})
+call <sid>hi('pythonClass', s:cdBlueGreen, {}, 'none', {})
+
+
 " Golang:
 call <sid>hi('goPackage', s:cdBlue, {}, 'none', {})
 call <sid>hi('goImport', s:cdBlue, {}, 'none', {})
