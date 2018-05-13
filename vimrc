@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'Valloric/YouCompleteMe'
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
 "安装插件写在这之前
 call vundle#end() "required
 filetype plugin on " required
@@ -38,3 +39,4 @@ set ignorecase "搜索忽略大小写
 filetype plugin indent on "自动检测文件类型并启动相关缩进插件
 filetype plugin on "不同文件类型加载相应插件
 
+map <C-n> :NERDTreeToggle<CR>
