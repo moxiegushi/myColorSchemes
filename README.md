@@ -3,3 +3,6 @@
 3. copy after/syntax/python.vim to your .vim/after/syntax/ directory(create one if not exist).
 ——To make these changes you can't just stick 'em in your vimrc file. The .vim/syntax/python.vim file will override it. Instead you'll need to run it after the syntax file loads
 4. write 'colorscheme codeDark' in your .vimrc
+
+-----------------------------------------------------
+setting.jar is a intelliJ setting file including vscode darkplus theme
